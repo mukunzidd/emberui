@@ -1,0 +1,7 @@
+<h2>Listing All Expenses</h2>
+
+{{#each model as |xp|}}
+	<h1>{{xp.description}}</h1>
+	<p>{{xp.amount}}</p>
+	<h4>{{xp.vendor}}</h4>
+{{/each}}
